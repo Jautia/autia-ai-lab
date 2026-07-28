@@ -1,18 +1,77 @@
 # Autia AI Lab
 
-Laboratorio de Inteligencia Artificial para el desarrollo de Autia.
+> Laboratorio de Inteligencia Artificial para Autia.
 
-## Objetivo
+Este repositorio centraliza los experimentos, herramientas, agentes y documentación relacionados con IA que serán utilizados en Autia, Apex y futuros proyectos.
 
-Este repositorio documenta el aprendizaje, experimentos, agentes, herramientas y componentes que formarán la capa de IA de Autia.
+---
 
-## Roadmap
+# Objetivos
 
-- [ ] Entorno de desarrollo
-- [ ] Modelos locales (Ollama)
-- [ ] Open WebUI
+- Aprender y experimentar con IA aplicada.
+- Construir agentes especializados.
+- Desarrollar servidores MCP.
+- Probar modelos locales y en la nube.
+- Automatizar procesos mediante n8n.
+- Documentar aprendizajes y buenas prácticas.
+
+---
+
+# Stack actual
+
+| Componente | Estado |
+|------------|--------|
+| VS Code | ✅ |
+| Git / GitHub | ✅ |
+| Docker Desktop | ✅ |
+| Ollama | ✅ |
+| Open WebUI | ✅ |
+| Modelo Gemma 3:4b | ✅ |
+
+---
+
+# Estructura
+
+```
+autia-ai-lab/
+
+├── agents/
+├── docs/
+├── experiments/
+├── mcp/
+├── memory/
+├── models/
+├── n8n/
+├── playground/
+├── prompts/
+└── tools/
+```
+
+---
+
+# Roadmap
+
+## Fase 1
+- [x] Configuración del laboratorio
+- [x] Ollama
+- [x] Open WebUI
+- [ ] Prompt Engineering
+- [ ] Modelos locales
+
+## Fase 2
 - [ ] MCP
-- [ ] n8n
-- [ ] Flowise
-- [ ] Primer agente
-- [ ] Integración con Autia
+- [ ] RAG
+- [ ] Agentes
+- [ ] Automatizaciones
+
+## Fase 3
+- [ ] Integraciones con Autia
+- [ ] Integraciones con Apex
+- [ ] Agentes colaborativos
+- [ ] Producción
+
+---
+
+# Licencia
+
+Uso privado.
